@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap');
 
-/* font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Slab', serif; */
 :root{
     --image-color: rgba(0, 35, 65, 0.72);
 }
@@ -174,12 +172,20 @@ p span {
     cursor: pointer;
 }
 .app-sample {
-    height: 597px;
+    /* max-height: 597px; */
     background: #001D35;
 }
+.app-sample p {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
 .quest {
-    width: 493px ;
-    height: 73px;
+    /* max-width: 493px ; */
+    /* height: 73px; */
     background-color:  #0070B8;
 }
 .quest h5 {
@@ -192,15 +198,16 @@ p span {
 }
 .quest-top {
     padding: 0 30px;
-    width: 514px;
-    height: 450px;
+    min-width: 300px;
+    max-width: 514px;
+    min-height: 460px;
     background-color: #0070B8;
     border-radius: 20px;
 }
 .quest-top p {
     font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 15px;
     line-height: 18px;
     /* letter-spacing: 0.05em; */
@@ -210,7 +217,7 @@ p span {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 28px;
     color: #FFFFFF;
 }
@@ -230,6 +237,37 @@ p span {
     height: 100%;
     z-index: -1;
 }
+.foot h6 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #0070B8;
+}
+.foot p {
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #222222;
+}
+.foot img {
+   cursor: pointer; 
+}
+.foot2 p span {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 18px;
+}
+/* .warn {
+    min-width: 300px;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+} */
 
 @media(min-width: 576px){
 
