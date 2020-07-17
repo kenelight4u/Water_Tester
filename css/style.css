@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap');
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif; */
+:root{
+    --image-color: rgba(0, 35, 65, 0.72);
+}
+
+/* HOME START */
+.home {
+    min-height: 100vh;
+    padding-top: 34px;
+}
+.home .home-top img {
+    width: 45px; 
+    height: 34px;
+}
+.home .home-top h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 42px;
+    color: #0070B8;
+}
+.home .home-top h6 span {
+    font-size: 22px; 
+}
+.home .home-down .home-text h6{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    line-height: 35px;
+    color: #222222;  
+}
+
+.home .home-down .home-text p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #222222;  
+}
+
+.btn-top1, .btn-top2 {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 7px 13px;
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    background: linear-gradient(90deg, #0070B8 9.8%, #5BCDFF 108.74%);
+    border-radius: 10px;
+}
+/* .btn-top {
+    font-size: 18px;
+    line-height: 23px;
+    padding: 10px 15px;
+    border-radius: 10px;
+} */
+
+.btn-top1 {
+    font-size: 18px;
+    line-height: 23px;
+    padding: 10px 15px;
+}
+.btn-top2 {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 25px;
+}
+
+.bckimg {
+    background-color: var(--image-color);
+    color: #fff;
+    height: 613px;
+    position: relative;
+}
+
+.bckimg::before{
+    content: ' ';
+    background: url('../images/Rectangle\ 294.png') no-repeat center center/cover;
+    position: absolute;
+    /* top: 60; */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #0070B8;
+}
+.subb h3 {
+    color: #fff;
+}
+.heal p {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #222222;
+}
+
+input {
+    width: 350px !important; 
+    height: 55px !important;
+    padding: 10px 30px !important;
+    background: #FFFFFF !important;
+    border: 1px solid rgba(0, 112, 184, 0.41) !important;
+}
+
+.card{
+    max-width: 300px;
+    height: 193px;
+    border: 0;
+    background: #FFFFFF;
+    border: 0px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+.card-body {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    /* border-top: 1px solid rgba(0, 0, 0, 0.125); */
+}
+.card .card-images {
+    width: 70px; 
+    height: 70px;
+    background-color: #DEFAFF;
+    position: absolute; 
+    top:-50px; 
+    left: 160px;
+}
+
+/* COUNT DOWN */
+.counter p {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 50px;
+    line-height: 59px;
+    color: #DEFAFF;
+}
+
+.count {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFF;
+}
+
+.bckimg h5 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 73px;  
+}
+.sub h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0070B8;
+}
+p span {
+    color: #0070B8;
+    cursor: pointer;
+}
+.app-sample {
+    height: 597px;
+    background: #001D35;
+}
+.quest {
+    width: 493px ;
+    height: 73px;
+    background-color:  #0070B8;
+}
+.quest h5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.quest-top {
+    padding: 0 30px;
+    width: 514px;
+    height: 450px;
+    background-color: #0070B8;
+    border-radius: 20px;
+}
+.quest-top p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    /* letter-spacing: 0.05em; */
+    color: #fff;
+}
+.quest-top .float-right {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.sub-down {
+    color: #fff;
+    height: 368px;
+    position: relative;
+}
+
+.sub-down::before{
+    content: ' ';
+    background: url('../images/Rectangle\ 318.png') no-repeat center center/cover;
+    position: absolute;
+    /* top: 60; */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+@media(min-width: 576px){
+
+        /* HOME START */
+    .home .home-top img {
+        width: 55px; 
+        height: 44px;
+    }
+    .home .home-top h6 {
+        font-size: 18px;   
+    }
+    .home .home-top h6 span {
+        font-size: 25px; 
+    }
+
+    .home .home-down .home-text h6{
+        font-size: 33px;
+        line-height: 40px;  
+    }
+    
+
+     /* COUNT DOWN */
+     .counter{
+        width: 130px; 
+        height: 130px; 
+        border-radius: 50%; 
+        border: 10px solid #0070B8;
+    }
+    .counter P {
+        font-size: 40px;
+    }
+    
+    .count {
+        font-size: 25px;
+    }
+
+}
+@media(min-width: 768px){
+
+    /* HOME */
+    .home .home-top img {
+        width: 65px; 
+        height: 54px;
+    }
+    .home .home-top h6 {
+        font-size: 23px;
+    }
+    .home .home-top h6 span {
+        font-size: 30px; 
+    }
+
+    .home .home-down .home-text {
+        max-width: 743px;
+    }
+    .home .home-down .home-text h6{
+        font-size: 40px;
+        line-height: 44px;  
+    }
+
+
+    .card{
+        max-width: 400px;
+        height: 193px;
+    }
+    .card .card-images {
+        width: 80px; 
+        height: 80px;
+        background-color: #DEFAFF;
+        position: absolute; 
+        top:-50px; 
+        left: 260px;
+    }
+
+     /* COUNT DOWN */
+    .counter{
+        width: 150px; 
+        height: 150px; 
+    }
+    
+    .counter P {
+        font-size: 50px;
+    }
+
+    .count {
+        font-size: 30px;
+    }
+
+
+}
+@media(min-width: 992px){
+
+    /* COUNT DOWN */
+    .counter{
+        width: 200px; 
+        height: 200px; 
+    }
+    .home .home-down .home-text h6{
+        font-size: 45px;
+        line-height: 54px;  
+    }
+   
+
+    /* .pt-btn {
+    padding-top: 10px;
+} */
+/* .pt-btn a{
+    padding: 8px 12px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 23px;
+    color: #ffffff;
+    font-weight: bold;
+    transition: all .5s ease;
+    
+} */
+/* .pt-btn a#pt1{
+    border: 1px solid #76C2A3;
+    color: #ffffff;
+    background-color: #76C2A3;
+} */
+}

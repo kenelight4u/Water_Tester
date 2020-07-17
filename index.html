@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>waterTester</title>
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="./css/animate.css">
+</head>
+
+<body>
+    <!-- HOME START  -->
+    <div class="container-fluid home">
+        <div class="row px-3 px-sm-2 px-md-5 home-top " >
+            <div class="col-6 d-flex justify-content-start align-items-center ">
+                <img src="./images/Group 142.svg" alt="logo" >
+                <h6 class="pt-2"> <span>W</span>ATER <span>T</span>ESTER</h6>
+            </div>
+        </div>
+        <div class="row px-3 px-sm-2 px-md-5 home-down">
+            <div class="col-sm-6 py-sm-5 home-text">
+                <h6 class="pt-sm-3 pt-md-5">Concerned about the kind of water that goes into your system?</h6>
+                <p class="pt-3">Get your water scanned with your mobile phone, in this way you’ll know how portable your water is for consumption without any reservation.</p>
+                <a href="#notify" class="btn-top1 mt-4">Get Notified</a>
+                <!-- <a href="#" class=" btn-top1" >Register</a> -->
+            </div>
+            <div class="col-sm-6 d-flex justify-content-center justify-content-center justify-content-sm-end pt-5 pt-sm-0">
+                <img src="./images/Group 209.png" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <!-- HOME END -->
+
+
+    <!-- COUNT DOWN START -->
+    <div class="container-fluid bckimg mt-4">
+        <h5 class="text-center py-5">COMING SOON!</h5>
+        <div class="row py-5">
+            <div class="col-3 d-flex flex-column align-items-center justify-content-center">
+                <div class=" d-flex justify-content-center align-items-center counter">
+                    <p id="days">00</p>
+                </div>
+                <h6 class="py-5 count ">Days</h6>
+            </div>
+            <div class="col-3 d-flex flex-column align-items-center justify-content-center">
+                <div class=" d-flex justify-content-center align-items-center  counter">
+                    <p id="hours">00</p>
+                </div>
+                <h6 class="py-5 count">Hours</h6>
+            </div>
+            <div class="col-3 d-flex flex-column align-items-center justify-content-center">
+                <div class=" d-flex justify-content-center align-items-center  counter" >
+                    <p id="minuites">00</p>
+                </div>
+                <h6 class="py-5 count">Minuites</h6>
+            </div>
+            <div class="col-3 d-flex flex-column align-items-center justify-content-center">
+                <div class=" d-flex justify-content-center align-items-center  counter" >
+                    <p id="seconds">00</p>
+                </div>
+                <h6 class="py-5 count">Seconds</h6>
+            </div>
+        </div>
+    </div>
+    <!-- COUNT DOWN END  -->
+
+    <!-- SUBSCRIBE START -->
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-center" id="notify">We are launching soon</h3>
+                <p class="text-center"> Be the first to get notified once we launch and for other app update </p>
+            </div>
+            <div class="col-12 d-flex justify-content-center">
+                <form method="POST" action="./php/connect.php">
+                    <div class="form-group" >
+                        <input class="form-control form-control-lg" name="email"  type="email" placeholder="Enter Your Email">
+                    </div>
+                    <div class="d-flex justify-content-center pt-2">
+                        <button type="submit" class="btn btn-top2">Submit</button>
+                        <!-- <a type="submit" value="Submit" class="btn-top2">Submit</a> -->
+                    </div>
+                   
+                   
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- SUBSCRIBE END -->
+
+    <!-- AFTER SUBSCRIBE START -->
+    <div class="container-fluid">
+        <div class="row py-5">
+            <div class="col-12 px-5 d-flex justify-content-center flex-column align-items-center sub">
+                <h3 class="text-center">The WATER TESTER</h3>
+                <p class="pt-3">Especially for people living in the rural/peril -urban areas and you are worried about coming down with cholera. </p>
+                <p> With this water tester applicatiion, you can monitor the kind of water around your community </p>
+            </div>
+        </div>
+    </div>
+    <!-- AFTER SUBSCRIBE END -->
+
+    <!-- DESIGN START -->
+        <div class="container-fluid mt-5">
+            <div class="row px-5 py-5">
+                <div class="card-deck">
+                    <div class="card" >
+                        <div class="rounded-circle d-flex justify-content-center align-items-center card-images" >
+                            <img src="./images/Vector.svg" class="card-img-top " style="width: 40px; height: 40px;">
+                        </div>
+                        <div class="card-body">
+                        <h5 class="card-title">Not just a tester</h5>
+                          <p class="card-text">Gives us awareness on the type of water to take in <span>more...</span> </p>
+                        </div>
+                    </div>
+                    <div class="card" >
+                        <div class="rounded-circle d-flex justify-content-center align-items-center card-images" >
+                            <img src="./images/Vector (4).svg" class="card-img-top " style="width: 40px; height: 40px;">
+                        </div>
+                        <div class="card-body">
+                        <h5 class="card-title">Healthy Living</h5>
+                          <p class="card-text">We don't have to worry over health challenges <span>more...</span></p>
+                        </div>
+                    </div>
+                    <div class="card" >
+                        <div class="rounded-circle d-flex justify-content-center align-items-center card-images" >
+                            <img src="./images/Vector (1).svg" class="card-img-top " style="width: 40px; height: 40px;">
+                        </div>
+                        <div class="card-body">
+                        <h5 class="card-title">Future Data</h5>
+                          <p class="card-text">The data from the water and their sources can be used to predit <span>more...</span></p>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="container-fluid mt-5">
+            <div class="row px-5 py-5">
+                <div class="card-deck">
+                    <div class="card" >
+                        <div class="rounded-circle d-flex justify-content-center align-items-center card-images" >
+                            <img src="./images/Vector (2).svg" class="card-img-top " style="width: 40px; height: 40px;">
+                        </div>
+                        <div class="card-body">
+                        <h5 class="card-title">Few taps</h5>
+                          <p class="card-text">It takes nothing less than few seconds to scan a water <span>more...</span></p>
+                        </div>
+                    </div>
+                    <div class="card" >
+                        <div class="rounded-circle d-flex justify-content-center align-items-center card-images">
+                            <img src="./images/emojione-monotone_mobile-phone.svg" class="card-img-top " style="width: 40px; height: 40px;">
+                        </div>
+                        <div class="card-body">
+                        <h5 class="card-title">Accessible</h5>
+                          <p class="card-text">It can be accessed from your mobile phone <span>more...</span></p>
+                        </div>
+                    </div>
+                    <div class="card" >
+                        <div class="rounded-circle d-flex justify-content-center align-items-center card-images" >
+                            <img src="./images/Vector (3).svg" class="card-img-top " style="width: 40px; height: 40px;">
+                        </div>
+                        <div class="card-body">
+                        <h5 class="card-title">Prevents diseases</h5>
+                          <p class="card-text">Water borne diseases like cholera are prevented <span>more...</span></p>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    <!-- DESIGN END -->
+
+    <!-- APP SAMPLES START -->
+    <div class="container-fluid ">
+        <h3 class="text-center py-5">Get a glimpse of how it works</h3>
+        <div class="row app-sample py-5 px-md-5 px-sm-3">
+            <div class="col-sm-3">
+                
+            </div>
+            <div class="col-sm-3">
+                <img src="./images/Group 210.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-sm-3">
+                <img src="./images/Group 187.png" alt="" class="img-flui">
+            </div>
+            <div class="col-sm-3">
+                <img src="./images/Group 208.png" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <!-- APP SAMPLES END -->
+
+    <!-- SAFE HEALTH START -->
+    <div class="container-fluid mt-5">
+        <div class="row heal">
+            <div class="col-sm-6 d-flex justify-content-center flex-column align-items-center">
+                <img src="./images/cryptocurrency_safe.svg" alt="" class="img-fluid">
+                <h3 class="mt-5">Safe Health</h3>
+                <p class="mt-4">Get on with your daily task without fear of health</p>
+                <p>risk through water going in to your system</p>
+                <p>carefully designed for you</p>
+            </div>
+            <div class="col-sm-6 d-flex justify-content-center flex-column align-items-center">
+                <img src="./images/Vector (5).svg" alt="" class="img-fluid">
+                <h3 class="mt-5">Data Access</h3>
+                <p class="mt-4">Built in such a way that previous saved data from</p>
+                <p>water scanned can be collectively used for</p>
+                <p>project researches</p>
+            </div>
+        </div>
+    </div>
+    <!-- SAFE HEALTH END -->
+
+
+    <!-- APP SAMPLES B START -->
+    <div class="container-fluid mt-5">
+        <div class="row app-sample py-5 px-md-5 px-sm-3">
+            <div class="col-sm-3">
+               <img src="./images/Group 207.png" alt="" class="img-fluid"> 
+            </div>
+            <div class="col-sm-3">
+                <img src="./images/Group 207.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-sm-3">
+                <img src="./images/Group 207.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
+    <!-- APP SAMPLES B END -->
+
+    <!-- QUESTIONARIES START -->
+    <div class="container-fluid mt-5  d-flex flex-column justify-content-center align-items-center">
+        <div class="quest d-flex justify-content-center flex-column align-items-center mt-5">
+            <h5>Just a drip of the excitement</h5>
+        </div>
+        
+        <p class="py-3">see from our research what people are saying</p>
+        <div class="row px-sm-3 px-md-5">
+            <div class="col-sm-6 px-sm-3">
+                <div class="quest-top mb-4 py-4 px-3 px-md-5 mr-3">
+                    <div class="d-flex justify-content-center">
+                        <img src="./images/Vector45.png" alt="">
+                    </div>
+                    <p class="pt-4">It is going to be an epic intervention, oweing to the fact that we get to drink from water that we are sure of. This is going to make us live healthy at last. A very great move the WaterTester team is trying to make here. I can not wait to use this WaterTesting applicatication, yeah I am looking forward this.
+                    </p>
+                    <p class="float-right pt-4">‘’An absolute fabulous Idea’’</p>
+                </div>
+            </div>
+            <div class="col-sm-6 px-sm-3">
+                <div class="quest-top mt-5 py-4 px-3 px-md-5 ml-3">
+                    <div class="d-flex justify-content-center">
+                        <img src="./images/Vector (12).png" alt="">
+                    </div>
+                    <p class="pt-4">In our community at large, we struggle with things like water which is an essential of life. The sources of clean water are from a very far distance, so yes this WaterTester is the great deal, I guess we do not know which is giving out clean water. With ths, we are able to get track of cwhich is clean and again this will go a long way in using this data for my project</p>
+                    <p class="float-right pt-4">‘’Invention at its peak’’</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- QUESTIONARIES END -->
+
+    <!-- SUBSCRIBE B START -->
+    <div class="container-fluid mt-5 sub-down d-flex flex-column justify-content-center align-items-center">
+        <div class="row ">
+            <div class="col-12 subb">
+                <h3 class="text-center">Subscribe now to our Newsletter</h3>
+                <p class="text-center"> Be the first to get notified once we fully launch </p>
+            </div>
+            <div class="col-12 d-flex justify-content-center">
+                <form method="POST" action="./php/connect.php">
+                    <div class="form-group">
+                        <input class="form-control form-control-lg" name="email"  type="email" placeholder="Enter Your Email">
+                    </div>
+                    <div class="d-flex justify-content-center pt-2">
+                        <button type="submit" value="submit" class="btn btn-top2">Submit</button>
+                    </div>
+                   
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- SUBSCRIBE B END -->
+
+    <!--   FOOTER START -->
+    <div class="container-fluid mt-5">
+        <div class="row py-5 px-5">
+            <div class="col-6">
+                <h5>WATER TESTER</h5>
+                <P>An invention to scan your water and dictates if it is good for consuming.</P>
+                <p>A mobile application sets to give you a real healthy lifestyle. You do not 
+                    have to worry about getting any water borne diseases again, instead 
+                you can relax while you take a picture of the water and check it's
+            cleaniness</p>
+            </div>
+            <div class="col-6">
+                <h5>Checkout our handles</h5>
+                <div class="row">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <p class="text-center">Copyright &copy; 2020 <span>WATER TESTER.</span> All Rights Reserved </p>
+            </div>
+        </div>
+    </div>
+    <!--   FOOTER END -->
+
+
+ 
+
+
+
+    
+
+
+
+
+
+
+
+    <!-- JavaScript -->
+    <script src="./js/main.js"></script>
+
+    <!-- PlugIn -->
+    <script src="./js/wow.min.js">
+    </script>
+    <script>
+        wow = new WOW({
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: 0,
+            mobile: true,
+            live: true
+        }
+        );
+        wow.init();
+    </script>
+</body>
+
+</html>
